@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+
+
+            /* banner */
+.hjl-banner{
+    overflow: hidden;
+    width: 100%;
+}
+.hjl-banner img{
+ float: left;
+}
+
+            /* nav */
+.hjl-nav{
+    width: 100%;
+    height: 50px;
+    background-color: #cf5565;
+}
+.nav{
+    width: 1140px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.nav ul li {
+    margin-left: 30px;
+    float: left;
+}
+.nav ul li a{
+   color: white;
+}
+.nav .left{
+      font-size: 19px;
+      color: white;
+  }
+.nav .right{
+    font-size: 15px;
+}
+
+            /* chengyuan */
+.hjl-chengyuan{
+    width: 100%;
+    height: 300px;
+    background-color: #ffeb8b;
+}
+.chengyuan{
+    width: 1140px;
+    height: 300px;
+    margin: 0 auto;
+}
+.c{
+    width: 380px;
+    height: 300px;
+    text-align: center;
+}
+.c h3{
+    margin-top: 45px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: #c13443;
+}
+.c p{
+    font-size: 12px;
+    color: #de846c;
+    margin-bottom: 10px;
+}
+
+            /* flooer */
+.hjl-flooer{
+    width: 100%;
+
+}
+.flooer{
+    width: 1140px;
+    margin: 0 auto;
+    border: 1px solid;
+}
+.f{
+    width: 750px;
+}
+.f h2{
+    margin-top: 50px;
+    font-size: 26px;
+    color: #c1343f;
+}
+.f p{
+    line-height: 20px;
+}
+.f1{
+    width: 385px;
+}
+.f1 h2{
+    margin-top: 50px;
+    font-size: 20px;
+    color: #c1343f;
+}
+.f1 p{
+     line-height: 20px;
+ }
+.pic img{
+    width: 110px;
+    float: left;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}

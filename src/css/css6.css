@@ -1,0 +1,146 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input
+{
+    margin: 0;
+    padding: 0;
+}
+body{font-size:12px;}
+img{border:none;}
+
+input,select,textarea{outline:none;}
+a{text-decoration:none;}
+/* Çå³ý¸¡¶¯ */
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+
+
+.box{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    width: 19.02rem;
+
+    height: 3.58rem;
+    background:url(../xm/../images/background.png) ;
+    background-size: cover;
+}
+/*nav*/
+.nav{
+    width: 19.02rem;
+    height: 0.5rem;
+    background: #cf5565;
+}
+.nav_c{
+    width: 11.25rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    /*background: yellow;*/
+    margin: 0 auto;
+    color: #fff;
+    font-weight: bold;
+}
+.p1{
+    float: left;
+    font-size: 0.2rem;
+}
+.p2{
+    float: right;
+}
+.p2>a{color: #fff;margin: 0 0.05rem;}
+
+
+/*cen*/
+.cen{
+    width: 19.02rem;
+    height: 3rem;
+    background: #ffeb8b;
+}
+.cen_c{
+    width: 11.25rem;
+    margin: 0 auto;
+    height: 3rem;
+}
+.cen_c>div{
+    width: 33.3%;
+    height: 3rem;
+    float: left;
+    text-align: center;
+    /*background: red;*/
+}
+.cen_c>div>h3{
+    font-size: 0.25rem;
+    margin-top: 0.42rem;
+    color: #c9544f;
+}
+.cen_c>div>p{
+    font-size: 0.12rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.13rem;
+    color: #c9544f;
+
+}
+/*fot*/
+.fot{
+    width: 19.02rem;
+    height: 4.85rem;
+}
+.fot_ce{
+    width: 11.25rem;
+    margin: 0 auto;
+    height: 4.85rem;
+    /*background: yellow*/
+}
+.fot_ce h3{
+    margin-top: 0.2rem;
+}
+.fot_ce>h3{
+    font-size: 0.2rem;
+    font-weight: bold;
+    color: #5f6d7a;
+}
+/*.input{
+	width: 1133px;
+	height: 99px;
+}*/
+.span1{
+    margin-left: 1.2rem;
+    font-weight: bold;
+    color: #5f6d7a;
+}
+.span2{
+    margin-left: 1rem;
+    font-weight: bold;
+    color: #5f6d7a;
+}
+button{
+    width: 0.55rem;
+    height: 0.34rem;
+    background-color: #5bc0de;
+    color: white;
+    border: none;
+    outline: none;
+}
+input{
+    width: 9.45rem;
+    height: 0.34rem;
+    border-radius:0.03rem ;
+    border: 0.01rem solid #cccccc;
+    outline: none;
+    padding-left: 0.15rem;
+    box-sizing: border-box;
+    margin-bottom: 0.15rem;
+}
+.in2{
+    width:8.9rem;
+}
+textarea{
+    width: 100%;
+    height: 132px;
+    outline: none;
+    resize: none;
+    color: #b2aca9;
+    font-weight: bold;
+    padding: 0.2rem 0 0 0.25rem;
+    box-sizing: border-box;
+}
